@@ -1,5 +1,8 @@
 <script setup>
+// Import komponen utama
 import HelloWorld from './components/HelloWorld.vue'
+
+// Perubahan kecil untuk commit
 </script>
 
 <template>
@@ -21,6 +24,8 @@ import HelloWorld from './components/HelloWorld.vue'
   will-change: filter;
   transition: filter 300ms;
 }
+
+/* Perubahan kecil untuk commit */
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -28,3 +33,4 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
+
